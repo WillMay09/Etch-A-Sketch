@@ -22,12 +22,31 @@ height: 100px;
 
 .content{
 display: flex;
+flex-wrap: wrap;
 background-color: green;
-width:75%;
+width:800px;
 height:100vh;
 margin: 0px;
 
 
 
+
+}
+
+.grid-div{
+margin: 0px;
+padding: 0px;
+background-color: cyan;
+border: 2px solid black;
+width: 100px;
+height:100px;
+cursor: pointer;
+
+
+}
+
+.grid-div.hovered{
+
+background-color: black;
 
 }
