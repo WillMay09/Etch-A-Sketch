@@ -12,34 +12,31 @@ align-items: center;
 flex-direction: column;
 
 }
-.squareSize{
 
-width: 100px;
-height: 100px;
+.buttons{
+display: flex;
+width: auto;
+height: 50px;
 
 
 }
+
 
 .content{
 display: flex;
 flex-wrap: wrap;
 background-color: green;
 width:800px;
-height:100vh;
+height:800px;
 margin: 0px;
-
-
-
-
 }
+
 
 .grid-div{
 margin: 0px;
 padding: 0px;
 background-color: cyan;
 border: 2px solid black;
-width: 100px;
-height:100px;
 cursor: pointer;
 
 
