@@ -50,6 +50,7 @@ function calculateGridSize(){
   generateButton.addEventListener('click',function(){
 
     let textField = document.querySelector('.numberOfSquares').value;
+    clearGrid()
     populateGrid(textField);
    
     
@@ -60,6 +61,15 @@ function calculateGridSize(){
   })
 
   //console.log(textField);
+
+
+}
+
+function clearGrid(){
+
+let allGridDivs = document.querySelectorAll('.grid-div');
+
+allGridDivs.forEach((div) => div.parentNode.removeChild(div));
 
 
 }
