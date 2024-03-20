@@ -49,7 +49,7 @@ function calculateGridSize(){
 
   generateButton.addEventListener('click',function(){
 
-    let textField = document.querySelector('.numberOfSquares').textContent;
+    let textField = document.querySelector('.numberOfSquares').value;
     populateGrid(textField);
    
     
@@ -74,4 +74,9 @@ function playGame(){
 
 }
 
-playGame();
+document.addEventListener('DOMContentLoaded', function(){
+
+  playGame();
+
+});
+
